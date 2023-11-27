@@ -1,0 +1,23 @@
+<!-- Main Template -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/style.css' />
+</head>
+
+<body>
+    {{!-- Header --}}
+    {{>header}}
+
+    <main>
+        {{!-- Content --}}
+        {{{body}}}
+    </main>
+
+    {{!-- Footer --}}
+    {{>footer}}
+</body>
+
+</html>
