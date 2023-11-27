@@ -15,7 +15,7 @@ const app = express();
 const database = require("./config/database");
 const bodyParser = require("body-parser"); // pull information from HTML POST (express4)
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 
 const methodOverride = require("method-override");
 app.use(methodOverride("_method"));
